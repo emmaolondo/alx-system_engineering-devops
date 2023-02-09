@@ -1,1 +1,1 @@
-Bash scripting
+Bash scriptingasic understanding of the shell
