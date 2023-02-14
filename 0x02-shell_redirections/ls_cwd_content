@@ -1,21 +1,18 @@
-total 71
--rw------- 1 u0_a190 u0_a190   16 Feb 14 06:24 *\"Best School"\\*$?*****:)
-drwx------ 2 u0_a190 u0_a190 3488 Feb 14 09:30 .
-drwx------ 6 u0_a190 u0_a190 3488 Feb 13 22:34 ..
--rwx------ 1 u0_a190 u0_a190   32 Feb 13 23:44 0-hello_world
--rwx------ 1 u0_a190 u0_a190   28 Feb 14 05:32 1-confused_smiley
--rwx------ 1 u0_a190 u0_a190   29 Feb 14 00:44 2-hellofile
--rwx------ 1 u0_a190 u0_a190   40 Feb 14 05:35 3-twofiles
--rwx------ 1 u0_a190 u0_a190   43 Feb 14 01:00 3-twofiles~
--rwx------ 1 u0_a190 u0_a190   33 Feb 14 05:45 4-lastlines
--rwx------ 1 u0_a190 u0_a190   33 Feb 14 05:49 5-firstlines
--rwx------ 1 u0_a190 u0_a190   30 Feb 14 06:04 6-third_line
--rwx------ 1 u0_a190 u0_a190   30 Feb 14 06:02 6-third_line~
--rwx------ 1 u0_a190 u0_a190   77 Feb 14 06:24 7-file
--rwx------ 1 u0_a190 u0_a190   76 Feb 14 06:22 7-file~
--rwx------ 1 u0_a190 u0_a190   41 Feb 14 09:30 8-cwd_state
--rwx------ 1 u0_a190 u0_a190   65 Feb 14 09:28 8-cwd_state~
--rw------- 1 u0_a190 u0_a190   19 Feb 13 22:32 README.md
--rw------- 1 u0_a190 u0_a190  897 Feb 14 06:00 iacta
--rw------- 1 u0_a190 u0_a190    0 Feb 14 05:58 iacta~
--rw------- 1 u0_a190 u0_a190    0 Feb 14 09:30 ls_cwd_content
+-rw------- 1 u0_a190 u0_a190  16 Feb 14 06:24 *\"Best School"\\*$?*****:)
+-rwx------ 1 u0_a190 u0_a190  32 Feb 13 23:44 0-hello_world
+-rwx------ 1 u0_a190 u0_a190  28 Feb 14 05:32 1-confused_smiley
+-rwx------ 1 u0_a190 u0_a190  29 Feb 14 00:44 2-hellofile
+-rwx------ 1 u0_a190 u0_a190  40 Feb 14 05:35 3-twofiles
+-rwx------ 1 u0_a190 u0_a190  43 Feb 14 01:00 3-twofiles~
+-rwx------ 1 u0_a190 u0_a190  33 Feb 14 05:45 4-lastlines
+-rwx------ 1 u0_a190 u0_a190  33 Feb 14 05:49 5-firstlines
+-rwx------ 1 u0_a190 u0_a190  30 Feb 14 06:04 6-third_line
+-rwx------ 1 u0_a190 u0_a190  30 Feb 14 06:02 6-third_line~
+-rwx------ 1 u0_a190 u0_a190  77 Feb 14 06:24 7-file
+-rwx------ 1 u0_a190 u0_a190  76 Feb 14 06:22 7-file~
+-rwx------ 1 u0_a190 u0_a190  40 Feb 14 09:51 8-cwd_state
+-rwx------ 1 u0_a190 u0_a190  41 Feb 14 09:30 8-cwd_state~
+-rw------- 1 u0_a190 u0_a190  19 Feb 13 22:32 README.md
+-rw------- 1 u0_a190 u0_a190 897 Feb 14 06:00 iacta
+-rw------- 1 u0_a190 u0_a190   0 Feb 14 05:58 iacta~
+-rw------- 1 u0_a190 u0_a190   0 Feb 14 09:51 ls_cwd_content
