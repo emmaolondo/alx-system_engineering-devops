@@ -1,21 +1,21 @@
-total 71
--rw------- 1 u0_a190 u0_a190   16 Feb 14 06:24 *\"Best School"\\*$?*****:)
-drwx------ 2 u0_a190 u0_a190 3488 Feb 14 10:21 .
-drwx------ 6 u0_a190 u0_a190 3488 Feb 13 22:34 ..
--rwx------ 1 u0_a190 u0_a190   32 Feb 13 23:44 0-hello_world
--rwx------ 1 u0_a190 u0_a190   28 Feb 14 05:32 1-confused_smiley
--rwx------ 1 u0_a190 u0_a190   29 Feb 14 00:44 2-hellofile
--rwx------ 1 u0_a190 u0_a190   40 Feb 14 05:35 3-twofiles
--rwx------ 1 u0_a190 u0_a190   43 Feb 14 01:00 3-twofiles~
--rwx------ 1 u0_a190 u0_a190   33 Feb 14 05:45 4-lastlines
--rwx------ 1 u0_a190 u0_a190   33 Feb 14 05:49 5-firstlines
--rwx------ 1 u0_a190 u0_a190   30 Feb 14 06:04 6-third_line
--rwx------ 1 u0_a190 u0_a190   30 Feb 14 06:02 6-third_line~
--rwx------ 1 u0_a190 u0_a190   77 Feb 14 06:24 7-file
--rwx------ 1 u0_a190 u0_a190   76 Feb 14 06:22 7-file~
--rwx------ 1 u0_a190 u0_a190   36 Feb 14 10:21 8-cwd_state
--rwx------ 1 u0_a190 u0_a190   41 Feb 14 09:30 8-cwd_state~
--rw------- 1 u0_a190 u0_a190   19 Feb 13 22:32 README.md
--rw------- 1 u0_a190 u0_a190  897 Feb 14 06:00 iacta
--rw------- 1 u0_a190 u0_a190    0 Feb 14 05:58 iacta~
--rw------- 1 u0_a190 u0_a190    0 Feb 14 10:21 ls_cwd_content
+total 68
+drwxr-xr-x 2 root    root  4096 Feb 14 05:57 .
+drwxr-xr-x 6 vincent staff  121 Feb 14 05:42 ..
+-rwxr-xr-x 1 root    root    32 Feb 14 05:42 0-hello_world
+-rwxr-xr-x 1 root    root    28 Feb 14 05:42 1-confused_smiley
+-rwxr-xr-x 1 root    root    29 Feb 14 05:42 2-hellofile
+-rwxr-xr-x 1 root    root    40 Feb 14 05:42 3-twofiles
+-rwxr-xr-x 1 root    root    43 Feb 14 05:42 3-twofiles~
+-rwxr-xr-x 1 root    root    33 Feb 14 05:42 4-lastlines
+-rwxr-xr-x 1 root    root    33 Feb 14 05:42 5-firstlines
+-rwxr-xr-x 1 root    root    48 Feb 14 05:42 6-third_line
+-rwxr-xr-x 1 root    root    30 Feb 14 05:42 6-third_line~
+-rwxr-xr-x 1 root    root    77 Feb 14 05:42 7-file
+-rwxr-xr-x 1 root    root    76 Feb 14 05:42 7-file~
+-rwxr-xr-x 1 root    root    35 Feb 14 05:57 8-cwd_state
+-rwxr-xr-x 1 root    root    41 Feb 14 05:42 8-cwd_state~
+-rw-r--r-- 1 root    root    16 Feb 14 05:42 *\"Best School"\\*$?*****:)
+-rw-r--r-- 1 root    root   897 Feb 14 05:42 iacta
+-rw-r--r-- 1 root    root     0 Feb 14 05:42 iacta~
+-rw-r--r-- 1 root    root     0 Feb 14 05:58 ls_cwd_content
+-rw-r--r-- 1 root    root    19 Feb 14 05:42 README.md
