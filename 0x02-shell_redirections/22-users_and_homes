@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F: '$3 <= 100 {print $1, $6}' /etc/passwd
+cut -d':' -f6 /etc/passwd
