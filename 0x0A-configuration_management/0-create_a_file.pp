@@ -1,4 +1,5 @@
 # a file that specifies the owner, group, mode  and content using puppet
+
 file { '/tmp/school':
   ensure  => present,
   mode    => '0774',
