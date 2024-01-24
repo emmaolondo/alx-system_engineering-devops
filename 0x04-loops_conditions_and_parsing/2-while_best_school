@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#print Best Scholl using while loop
-
-count=1
-while [ $count -le 10 ]
-do
-	echo "Best School"
-	count=$(( count+1))
-done
