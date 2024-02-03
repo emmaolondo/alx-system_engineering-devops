@@ -1,4 +1,4 @@
-#usr/bin/env bash
+#!/usr/bin/env bash
 # Write a Bash script that transfers a file from our client to a server:
 # The path to the file to be transferred
 # The IP of the server we want to transfer the file to
