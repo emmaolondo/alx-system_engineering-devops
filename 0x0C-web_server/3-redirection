@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#  install nginx and configure it to listen to port 80 and print "Hello world"
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo serrvice nginx start
+# allow the firewall to access port 80
+ufw allow 'Nginx HTTP'
+
+#grant ownership and permission to the file pathcontaining the nginx file
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod 755 /var/www
+
+#back up the original nginx-debian.html file
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bck
+echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
+
+# redirect to a different page
+sudo sed -i '/location \/ {/a \   location /redirect_me { \n       return 301 https://www.youtube.com/watch?v=G_AEL-Xo5l8; \n    }' /etc/nginx/sites-available/default
+
+sudo service nginx restart
