@@ -15,3 +15,5 @@ sudo chmod 755 /var/www
 cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bck
 echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 sudo service nginx restart
+
+echo -e "Nginx installed and configured"
