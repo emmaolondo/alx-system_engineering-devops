@@ -17,6 +17,6 @@ service nginx start
 
 echo "Hello World!" | tee /usr/share/nginx/html/index.html > /dev/null
 
-sudo service nginx restart
+service nginx restart
 
 #echo -e "Nginx installed and configured"
