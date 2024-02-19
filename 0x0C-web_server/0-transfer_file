@@ -17,5 +17,5 @@ fi
 if [ "$#" -ge 4 ]; then
 	scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3"@"$2":~/
 else
-	scp -o StrictHostKeyChecking=no "$1" "$3"@"$2":/
+	scp -o StrictHostKeyChecking=no "$1" "$3"@"$2":~/
 fi
