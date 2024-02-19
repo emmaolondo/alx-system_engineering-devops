@@ -3,7 +3,7 @@
 
 apt-get update
 apt-get -y install nginx
-service nginx start
+#service nginx start
 # allow the firewall to access port 80
 # ufw allow 'Nginx HTTP'
 
@@ -15,8 +15,10 @@ service nginx start
 #cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bck
 #echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 
-echo "Hello World!" | tee /usr/share/nginx/html/index.html > /dev/null
+# echo "Hello World!" | tee /usr/share/nginx/html/index.html > /dev/null
 
-service nginx restart
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+
+service nginx start
 
 #echo -e "Nginx installed and configured"
