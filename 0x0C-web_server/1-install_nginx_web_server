@@ -12,10 +12,10 @@ sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod 755 /var/www
 
 #back up the original nginx-debian.html file
-cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bck
+#cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bck
 #echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
 sudo service nginx restart
 
