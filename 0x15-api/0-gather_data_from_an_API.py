@@ -11,11 +11,11 @@ if __name__ == "__main__":
         sys.exit(1)
 
     employeeId = sys.argv[1]
-    todo_url = f'https://jsonplaceholder.typicode.com/user/{employeeId}/todos'
-    user_url = f'https://jsonplaceholder.typicode.com/users/{employeeId}'
+    todo_url = 'https://jsonplaceholder.typicode.com/user/{}/todos'.format(employeeId)
+    user_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(employeeId)
 
-    user = requests.get(user_url)
-    name = user.json().get('name')
+    user = requests.get(user_url).json()
+    name = user.get('name')
 
     taskCount = 0
     t_completed = 0
@@ -31,7 +31,7 @@ if __name__ == "__main__":
                 list_tasks.append(i.get('title'))
                 t_completed += 1
 
-    print(f'Employee {name} is done with tasks({t_completed}/{taskCount}):')
+    print('Employee {} is done with tasks({}/{}):'.format(name, t_completed, taskCount))
 
     for tasks in list_tasks:
         print('\t', tasks)
