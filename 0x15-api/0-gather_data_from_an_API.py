@@ -25,7 +25,7 @@ if __name__ == "__main__":
     tasks = todo.json()
 
     for i in tasks:
-        if i.get('userId') == employeeId:
+        if i.get('userId') == int(employeeId):
             taskCount += 1
             if i.get('completed'):
                 list_tasks.append(i.get('title'))
@@ -35,5 +35,3 @@ if __name__ == "__main__":
 
     for tasks in list_tasks:
         print('\t', tasks)
-        # if j.get('userId') == employeeId and j.get('completed'):
-            #print(f'\n\t {j['title']}', end="")
