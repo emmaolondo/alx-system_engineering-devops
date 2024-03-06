@@ -10,7 +10,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit(1)
 
-    employeeId = int(sys.argv[1])
+    employeeId = sys.argv[1]
     todo_url = f'https://jsonplaceholder.typicode.com/user/{employeeId}/todos'
     user_url = f'https://jsonplaceholder.typicode.com/users/{employeeId}'
 
