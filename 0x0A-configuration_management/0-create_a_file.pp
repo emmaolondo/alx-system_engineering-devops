@@ -1,7 +1,9 @@
-# Install Flask version 2.1.0 using pip3
+# Creates a file in tmp
 
-exec { 'install_flask':
-command => '/usr/bin/pip3 install flask==2.1.0',
-path    => ['/usr/bin', '/usr/local/bin'],
-unless  => '/usr/bin/pip3 show flask | grep Version | grep -q 2.1.0',
+file { '/tmp/school':
+ensure  => file,
+mode    => '0744',
+owner   => 'www-data',
+group   => 'www-data',
+content => 'I love Puppet',
 }
