@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#configure SSH client to use a specific private Key
+# and refuse password authentication
+
+Host *
+     Hostname 100.25.14.234
+     User     Ubuntu
+     PasswordAuthentication no
+     IdentityFile ~/.ssh/school
