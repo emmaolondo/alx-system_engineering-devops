@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Display numbers from 1 to 20 and for the (4, 9, 17) loops display bad luck from (china, Japan, Italy) respectively
+
+iter=1
+while [ $iter -le 20 ]
+do
+	echo "$iter"
+	case "$iter" in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+	esac
+	iter=$((iter + 1))
+done
